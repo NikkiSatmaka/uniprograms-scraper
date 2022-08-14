@@ -1,0 +1,16 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - beautifulsoup4
+  - scrapy
+
+  - pip:
+    - scrapy-playwright
